@@ -35,6 +35,25 @@ body {
     border-radius: 60px;
     position: absolute;
     bottom: 150px;
-    left: 230px;
+    left: 0;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
 }
 
+@keyframes circle {
+    0% {
+        left: 0
+    }
+
+    1%,
+    50% {
+        left: 480px;
+    }
+
+    51%,
+    100% {
+        left: 0;
+    }
+}
