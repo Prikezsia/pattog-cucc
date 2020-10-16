@@ -1,0 +1,40 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Roboto Slab';
+    background: linear-gradient(#fff, #a7a7a7);
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .content {
+    position: relative;
+    background-color: black;
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+}
+
+.circle{
+    border: 60px solid red;
+    width: 60px;
+    border-radius: 60px;
+    position: absolute;
+    bottom: 150px;
+    left: 230px;
+}
+
